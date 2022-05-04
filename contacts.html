@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="background-image:url(/Pictures/background-image.jpg);">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="skills.html">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"href="contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container mx-auto">
+        <h2 class="display-2  text-white">Contact me:</h2>
+        <form class="w-75" action="https://formspree.io/f/xgedpqbb" method="post">
+           <!-- Name -->
+            <div class="row my-2" >
+                <label for=""class="col-2 col-form-label-lg">Name:</label>
+                <div class="col-8">
+                    <input id="name" name="name" type="text" placeholder="Enter your name" class="form-control">
+                </div>
+            </div>
+            <!-- Surname -->
+            <div class="row my-2" >
+                <label for=""class="col-2 col-form-label-lg">Surname:</label>
+                <div class="col-8">
+                    <input id="Surname" name="Surname" type="text" placeholder="Enter your Surname" class="form-control">
+                </div>
+            </div>
+            <!-- Age -->
+            <div class="row my-2" >
+                <label for=""class="col-2 col-form-label-lg">Age:</label>
+                <div class="col-8">
+                    <input id="age" name="age" type="number" placeholder="Enter your age" class="form-control">
+                </div>
+            </div>
+            <!-- Gender -->
+            <div class="row my-2">
+                <label for="gender" class="col-md-2 col-form-label-lg">Gender: </label>
+                <div class="col-8">
+                    <span class="ms-3">Male <input type="radio" id="gender" name="gender" required></span>
+                    <span class="ms-1">Female <input type="radio" id="gender" name="gender" required></span>
+                </div>
+            </div>
+                <!-- Subjects -->
+                <div class="row my-2">
+                    <label for="subject" class="col-md-2 col-form-label-lg">Subject: </label>
+                    <div class="col-8">
+                        <select name="subject" id="subject" class="form-select">
+                            <option value="html5" selected>HTML 5</option>
+                            <option value="css3">CSS 3</option>
+                            <option value="javascript">Javascript</option>
+                            <option value="bootstrap">Bootstrap</option>
+                        </select>
+                    </div>
+                </div>
+                 <!-- Message -->
+            <div class="row my-2">
+                <label for="message" class="col-md-2 col-form-label-lg">Message: </label>
+                <div class="col-8 form-floating">
+                    <textarea name="message" id="message" class="h-100 w-100">
+                    </textarea>
+                </div>
+            </div>
+            <div class="row my-2">
+                <label class="col-md-2 col-form-label-lg"></label>
+                <div class="col-8">
+                    <input type="submit" value="Submit"
+                    class="btn btn-primary w-100">
+                </div>
+            </div>
+        </form>
+    </div>
+            </div>
+        </form>
+    </div>
+    
+
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

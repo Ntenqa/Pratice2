@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.social{
+    color: dodgerblue;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.social:hover{
+    color: aqua;
+
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url(/Pictures/bubbles.jpg);;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: right;
+    width:55%
+}
+.image-section{
+    float: left;
+    width: 30%;
+}
+.image-section img{
+    width: 100%;
+    height:auto;
+}
+.content-section .title{
+    text-transform:uppercase;
+    font-size: 28px;
+}
+.content-section .content h2{
+    margin-top: 20px;
+    color:gold;
+    font-size:30px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.content-section .content .button a{
+    margin-top: 30px;
+}
+.content-section .content .button a{
+    background-color: darkcyan;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 25px;
+    letter-spacing:1.5px;
+}
+.content-section .content .button a{
+    background-color: cornflowerblue;
+    color-scheme:dark ;
+
+}
+.content-section .social{
+    margin-top: 40px;
+}
